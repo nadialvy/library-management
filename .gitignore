@@ -1,0 +1,33 @@
+# .env file
+.env
+
+# Direktori atau file yang dihasilkan oleh editor atau IDE
+.vscode/
+.idea/
+*.swp
+
+# Cache dan file build Go
+*.exe
+*.out
+*.log
+*.test
+*.swp
+*.tmp
+*.prof
+*.trace
+
+# Cache module Go
+/go/pkg
+/go/bin
+/go/src
+
+# File yang dihasilkan oleh go mod
+go.sum
+
+# Hasil build binary
+bin/
+build/
+
+# File sementara lainnya
+*.DS_Store
+*.log
